@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GARABATEANDO</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+    <!--Diseño de paint-->
+    <div>
+        <div class="w3-container w3-black titulo">
+          <p>Garabateando</p>
+        </div>
+    </div>
+    <table>
+        <tr>
+             <td><canvas id="canvas" width="500" height="500" onmousemove="pintar(event);", onmousedown="activar();", onmouseup="desactivar();"></canvas></td>
+             <td class="herramientas">
+               
+                <a href="#" onclick="lapiz();"></a><img src="/imagenes/lapiz.png" alt="borrador" width="25px" height="25px" class="imagenes"><br />
+                
+                <a href="#" onclick="borrador();"></a><img src="/imagenes/borrador.png" alt="lapiz" width="25px" height="25px" class="imagenes"><br />
+                
+                 <div style="width: 10px; height: 10px;" onclick="stamano(10);"></div><br />
+				<div style="width: 20px; height: 20px;" onclick="stamano(20);"></div><br />
+				<div style="width: 30px; height: 30px;" onclick="stamano(30);"></div><br />
+				<div style="width: 40px; height: 40px;" onclick="stamano(40);"></div><br />
+                
+				<input type="color" id="colores" onchange="scolor();"/>
+                
+             </td>
+        </tr>   
+    </table>
+    <script>
+        var color = "#000000";
+        var tamano = 10;
+        var pintura = false;
+        function pintar(event){
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext("2d");
+            var x = event.clientX-10;
+            var y = event.clientY+15;
+            if(pintura){
+                ctx.fillStyle = color;
+                ctx.fillRect (x,y,tamano,tamano);
+            }
+        }
+        function activar(){
+            pintura = true;
+        }
+        
+        function desactivar(){
+            pintura = false;
+        }
+        
+        function borrador(){
+            document.getElementById("canvas").style.cursor = "url('borrador.png'), default";
+            color = "#FFFFFF";
+            document.getElementById("colores").setAttribute("disabled", "");
+        }
+        
+        function lapiz(){
+            document.getElementById("canvas").style.cursor = "url('lapiz.png'),default";
+            color = document.getElementById("colores").value;
+            document.getElementById("colores").removeAttribute("disabled");
+        }
+        
+        function scolor(){
+            color = document.getElementById("colores").value;
+        }
+        
+        function stamano(numero){
+            tamano = numero;
+        }
+    </script>
+   
+    
+</body>
+</html>

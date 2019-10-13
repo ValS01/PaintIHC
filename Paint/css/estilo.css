@@ -1,0 +1,17 @@
+canvas{
+    border: solid 3px;
+    cursor: url('/imagenes/lapiz.png'), default;
+}
+
+.herramientas{
+    width: 100px;
+}
+
+.imagenes:hover{
+    border: solid red 3px;
+}
+
+.titulo{
+    font-family: verdana;
+    font-size: 20px;
+}
