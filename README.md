@@ -35,8 +35,8 @@ En una escuela primaria se quiere implementar un taller donde los alumnos de 1er
 
 ![Color](https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Color.png)
 
-- Si Juan quiere borrar algo puede presionar el botón con el icono <img src="https://github.com/ValS01/PaintIHC/blob/master/Paint/img/borrador.png" alt="borrador" style="zoom:5%;" />
-- Si Juan quiere continuar pintando puede presionar el botón con el icono <img src="https://github.com/ValS01/PaintIHC/blob/master/Paint/img/lapiz.png" alt="lapiz" style="zoom:5%;" />
+- Si Juan quiere borrar algo puede presionar el botón con el icono <img src="https://github.com/ValS01/PaintIHC/blob/master/Paint/img/borrador.png" alt="borrador" width="20" height="20" />
+- Si Juan quiere continuar pintando puede presionar el botón con el icono <img src="https://github.com/ValS01/PaintIHC/blob/master/Paint/img/lapiz.png" width="20" height="20" />
 - Si Juan quiere continuar dibujando con el mouse tendrá que presionar de nuevo el botón "Video"
 
 ![Video](https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Video.png)
