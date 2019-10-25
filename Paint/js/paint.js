@@ -173,6 +173,11 @@ function grosor(){
     tamano = slider.value;
 }
 
+function relleno(){
+    color = document.getElementById("colores").value;
+    document.getElementById("canvasPaint").style.backgroundColor = color;
+}
+
 function convertToRange(value, srcRange, dstRange) {
     // value is outside source range return
     if (value < srcRange[0] || value > srcRange[1]) {
