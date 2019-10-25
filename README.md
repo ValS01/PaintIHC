@@ -15,31 +15,44 @@ En una escuela primaria se quiere implementar un taller donde los alumnos de 1er
 - Juan encontró una aplicación llamada GARABATEANDO con la que podrá dibujar con su mano. 
 - Juan abre la aplicación y se encuentra con la siguiente interfaz:
 
-![GARABATEANDO](https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/GARABATEANDO.png)
+<p align="center">
+  <img src="https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/GARABATEANDO.png">
+</p>
 
 - Juan podrá pintar en el lienzo blanco con el mouse si eso es lo que prefiere
 - Juan presiona el botón "Video"
 
-![Video](https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Video.png)
+<p align="center">
+  <img src="https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Video.png">
+</p>
+
 
 - El sistema pide permiso para encender la cámara
 
-![Permisos](https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Permisos.png)
+<p align="center">
+  <img src="https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Permisos.png">
+</p>
 
 - Juan empieza a hacer movimientos con su mano y los garabatos se ven reflejados en el lienzo en blanco
 - Si Juan quiere cambiar el grosor de la linea puede presionar alguno de los 4 cuadritos que representan el grosor de la linea. 
 
-![Grosor](https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Grosor.png)
+<p align="center">
+  <img src="https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Grosor.png">
+</p>
 
 - Así mismo, si quiere cambiar el color de la linea puede presionar el recuadro negro que representa el color actual que se esta utilizando
 
-![Color](https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Color.png)
+<p align="center">
+  <img src="https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Color.png">
+</p>
 
 - Si Juan quiere borrar algo puede presionar el botón con el icono <img src="https://github.com/ValS01/PaintIHC/blob/master/Paint/img/borrador.png" alt="borrador" width="20" height="20" />
 - Si Juan quiere continuar pintando puede presionar el botón con el icono <img src="https://github.com/ValS01/PaintIHC/blob/master/Paint/img/lapiz.png" width="20" height="20" />
 - Si Juan quiere continuar dibujando con el mouse tendrá que presionar de nuevo el botón "Video"
 
-![Video](https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Video.png)
+<p align="center">
+  <img src="https://github.com/ValS01/PaintIHC/blob/master/Analisis/Imagenes/Video.png">
+</p>
 
 ### Historias
 
@@ -50,11 +63,3 @@ En una escuela primaria se quiere implementar un taller donde los alumnos de 1er
 - [x] El usuario podrá borrar los trazos no deseados
 - [x] El usuario podrá ser acceder al sistema desde cualquier navegador web 
 - [x] El usuario podrá controlar el sistema con los movimientos de su mano
-
-
-
-
-
-
-
-
